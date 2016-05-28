@@ -1,0 +1,32 @@
+{
+  "name": "ShopAppAndroid",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "node api_test.js",
+    "dj-port": "D:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe reverse tcp:8081 tcp:8081",
+    "dj-port2": "D:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe reverse tcp:8002 tcp:8002",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "dj-key": "D:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\platform-tools\\adb.exe shell  input keyevent 82",
+    "debug": "react-native run-android",
+    "nxq-port": "D:\\Java\\Android\\sdk\\platform-tools\\adb.exe reverse tcp:8081 tcp:8081",
+    "nxq-port2": "D:\\Java\\Android\\sdk\\platform-tools\\adb.exe reverse tcp:8002 tcp:8002"
+  },
+  "dependencies": {
+    "es6-promisify": "^3.0.0",
+    "express": "^4.13.4",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-native": "^0.22.2",
+    "react-native-android-tablayout": "^0.2.0",
+    "react-native-scrollable-tab-view": "^0.4.0",
+    "react-native-swiper": "^1.4.3",
+    "react-native-viewpager": "^0.2.1",
+    "react-redux": "^4.4.1",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.3.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {}
+}

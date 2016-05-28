@@ -1,0 +1,8 @@
+{
+    "code":200,
+    "msg":"",
+    "data":[{"name":"原创首页","key_value":"home"},
+            {"name":"使用评测","key_value":""},
+            {"name":"购物攻略","key_value":""},
+            {"name":"生活指南","key_value":""}]
+}

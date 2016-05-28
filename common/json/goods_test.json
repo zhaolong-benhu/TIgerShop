@@ -1,0 +1,5 @@
+{
+    "code":200,
+    "msg":"",
+    "data":[{"id":"12321312","title":"title","imgUrl":"fasdfa","currentPrice":132.1,"originPrice":123.0,"commentsNumber":213,"collectNumber":21,"mall":"京东"}]
+}
